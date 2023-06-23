@@ -1,10 +1,14 @@
 import './App.css';
+import { HomePage } from './layouts/HomePage/HomePage';
+import { Footer } from './layouts/NavbarAndFooter/Footer';
 import { Navbar } from './layouts/NavbarAndFooter/Navbar';
 
-function App() {
+export const App = () => {
   return (
-    <Navbar/>
+    <div>
+      <Navbar/>
+      <HomePage />
+      <Footer />
+    </div>
   );
 }
-
-export default App;
