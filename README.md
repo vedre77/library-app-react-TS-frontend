@@ -1,5 +1,10 @@
 # Frontend for the Library Fullstack App
 
+Library App uses Spring Boot Backend to achieve:
+
+* prevention of unwanted request methods
+* form search, category search and proper pagination
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
