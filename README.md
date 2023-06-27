@@ -3,7 +3,8 @@
 Library App uses Spring Boot Backend to achieve:
 
 * prevention of unwanted request methods
-* form search, category search and proper pagination
+* implement a carousel with proper pagination
+* implement form search and category search
 
 ***
 
