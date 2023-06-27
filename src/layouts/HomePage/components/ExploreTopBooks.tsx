@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 const ExploreTopBooks = () => {
   return (
@@ -10,9 +11,11 @@ const ExploreTopBooks = () => {
                     Find your next adventure
                 </h1>
                 <p className='cold-md-8 fs-4'>Where would you like to go next</p>
-                <a type='button' className='btn main-color btn-lg text-white' href="#">
+                <Link type='button' 
+                      className='btn main-color btn-lg text-white' 
+                      to='/search'>
                     Explore top books
-                </a>
+                </Link>
             </div>
         </div>
     </div>

@@ -1,16 +1,11 @@
+import { NavLink } from "react-router-dom"
+
 export const Navbar = () => {
     return (
         <nav className='navbar navbar-expand-lg navbar-dark main-color py-3'>
             <div className='container-fluid'>
                 <span className='navbar-brand'>Love To Read</span>
                 <button className='navbar-toggler' type='button'
-                    // ARIA generally provides additional metadata and semantics to HTML elements
-                    // 'collapse' is typically used with Bootstrap's collapse functionality
-                    // target element or component that should be affected by the toggle action
-                    // ARIA attribute associates an element with the ID of the element it controls
-                    // 'false' suggests that the element controlled by the button (identified by aria-controls) 
-                    // is initially in a collapsed state
-                    // aria-label provides an accessible label 
                     data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown'
                     aria-controls='navbarNavDropdown' aria-expanded='false'
                     aria-label='Toggle Navigation'
@@ -20,10 +15,10 @@ export const Navbar = () => {
                 <div className='collapse navbar-collapse' id='navbarNavDropdown'>
                     <ul className='navbar-nav'>
                         <li className='nav-item'>
-                            <a className='nav-link' href='#'>Home</a>
+                            <NavLink className='nav-link' to='/home'>Home</NavLink>
                         </li>
                         <li className='nav-item'>
-                            <a className='nav-link' href='#'>Search Books</a>
+                            <NavLink className='nav-link' to='/search'>Search Books</NavLink>
                         </li>
                     </ul>
                     <ul className='navbar-nav ms-auto'>
