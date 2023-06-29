@@ -1,10 +1,12 @@
 # Frontend for the Library Fullstack App
 
-Library App uses Spring Boot Backend to achieve:
+Library App uses Spring Boot Backend, and implements:
 
 * prevention of unwanted request methods
-* implement a carousel with proper pagination
+* a carousel with proper pagination
 * implement form search and category search
+* book review and checkout
+* okta react component for login and signup functionality
 
 ***
 
