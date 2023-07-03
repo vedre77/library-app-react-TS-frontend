@@ -6,6 +6,7 @@ Library App uses Spring Boot Backend, and implements:
 * a carousel with proper pagination
 * implement form search and category search
 * book review and checkout
+* book shelf with loan overview and renewal
 * okta react component for login and signup functionality
 
 ***
