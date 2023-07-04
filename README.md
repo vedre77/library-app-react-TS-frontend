@@ -8,6 +8,7 @@ Library App uses Spring Boot Backend, and implements:
 * book review and checkout
 * book shelf with loan overview and renewal
 * okta react component for login and signup functionality
+* added nanoid dependency to counter clashing keys issue
 
 ***
 
